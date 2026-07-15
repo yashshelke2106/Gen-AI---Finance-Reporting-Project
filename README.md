@@ -181,7 +181,3 @@ data/samples/     illustrative filing + transcripts
 - Long documents are trimmed (`Document.excerpt`) to fit context; for very large
   filings, a future improvement is retrieval over sections rather than truncation.
 - Sample data is **illustrative** ("Acme Corp"), not a real company.
-
-## License
-
-MIT
