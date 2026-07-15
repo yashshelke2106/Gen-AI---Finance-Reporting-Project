@@ -1,0 +1,22 @@
+{
+  "cases": 1,
+  "schema_valid_rate": 1.0,
+  "numeric_accuracy": 1.0,
+  "source_grounding_rate": 1.0,
+  "sentiment_accuracy": 1.0,
+  "risk_recall": 1.0,
+  "case_scores": [
+    {
+      "case_id": "acme_q2_fy2024",
+      "schema_valid": true,
+      "metrics_checked": 5,
+      "metrics_correct": 5,
+      "grounded_metrics": 4,
+      "total_metrics": 4,
+      "sentiment_ok": true,
+      "risk_keywords_found": 2,
+      "risk_keywords_expected": 2,
+      "errors": []
+    }
+  ]
+}

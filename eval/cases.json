@@ -1,0 +1,24 @@
+[
+  {
+    "id": "acme_q2_fy2024",
+    "company": "Acme Corp",
+    "ticker": null,
+    "period": "Q2 FY2024",
+    "use_mock": true,
+    "filing": "data/samples/sample_10q_excerpt.txt",
+    "transcript": "data/samples/sample_transcript.txt",
+    "prior_transcript": "data/samples/sample_prior_transcript.txt",
+    "ground_truth": {
+      "metrics": {
+        "Total revenue": {"value": 1250.0, "tol": 0.01, "unit": "USD millions"},
+        "Gross margin": {"value": 44.0, "tol": 0.1, "unit": "%"},
+        "Net margin": {"value": 16.8, "tol": 0.1, "unit": "%"},
+        "Return on equity": {"value": 8.75, "tol": 0.1, "unit": "%"}
+      },
+      "revenue_yoy_pct": {"value": 13.64, "tol": 0.1},
+      "gross_margin_delta_bps": {"value": 300.0, "tol": 10.0},
+      "expected_sentiment": "more_positive",
+      "expected_risk_keywords": ["concentration", "currency"]
+    }
+  }
+]
